@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordian Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+     font-size: 30px;
+     text-decoration: none;
+     text-align: center;
+ }
+ .menu{
+     width: 100%;
+     height: 600px;
+     text-decoration: none;
+     border: 2px red solid;
+     position: relative;
+     overflow: hidden;
+     top: 0;
+     left: 0;
+ }
+ .items{
+     text-align: center;
+    max-width: 50%;
+    border: 2px solid black ;
+    margin: 2px;
+    padding: 10px;
+
+ }
+ .menu a{
+     text-decoration: none;
+     color: black;
+ }
+ .menu li{
+     list-style-type: none;
+ }
+    </style>
+</head>
+<body>
+<div class="middle">
+    <div class="menu">
+        <li class="items">
+            <a href="" class="btn"><i class="fa fa-user fa-2x" aria-hidden="true"></i>Profile</a>
+            <div class="smenu">
+                <a href="">posts</a>
+                <a href="">pictures</a>
+         
+            </div>
+        </li>
+        <li class="items">
+            <a href="" class="btn"><i class="fa fa-comments fa-2x" aria-hidden="true"></i>messages</a>
+            <div class="smenu">
+                <a href="">sent</a>
+                <a href="">recived</a>
+                <a href="">Draft</a>
+         
+            </div>
+        </li>
+        <li class="items">
+            <a href="" class="btn"><i class="fa fa-cog fa-2x "></i>setting</a>
+            <div class="smenu">
+                <a href="">username</a>
+                <a href="">password</a>
+         
+            </div>
+        </li>
+        <li class="items">
+            <a href=""><i class="fa fa-power-off fa-2x" aria-hidden="true"></i>Logout</a>
+            
+        </li>
+
+
+
+    </div>
+</div>
+    
+</body>
+</html>
